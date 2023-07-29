@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+.cardContainer {
+    flex-basis: 30%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    padding-top: 2%;
+  }
+.product{
+    background-color: var(--sectionBack);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3 );
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 20px 40px;
+    border-radius: 10px;
+    transition: .3s;
+    position: relative;
+    overflow: hidden; 
+}
+
+.product:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 20px rgba(15, 15, 208, 0.8);
+}
+.product-image {
+    height: 250px;  /* Set this to the height you want */
+    object-fit: cover;  /* This will make the image cover the given height and width */
+  }
+  
+.namePrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.titleProduct{
+    font-weight: bold;
+
+}
+.price{
+    font-weight: bold;
+}
+.addButton {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #252525;
+    color: white;
+    padding: 5%;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+    opacity: 0;
+  }
+  
+  .card:hover .addButton {
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 0.5s, visibility 0.5s;
+  }

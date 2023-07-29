@@ -1,0 +1,41 @@
+.shopCart.card{
+    border: none;
+    border-top: 1px solid rgb(197, 197, 197);
+    
+   margin: 5% 0;
+   width: 100%;
+   padding-top: 3%;
+   cursor: auto;
+
+}
+
+.shopCart img{
+    max-width: 200px;
+    max-height: 150px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+
+.quantity button{
+    border: none;
+    padding: 2px 4px;
+    background-color: white;
+}
+
+.quantity{
+    border: 0.5px solid rgb(179, 179, 179) ;
+    border-radius: 1px;
+}
+.edit{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.fa-trash-can{
+    font-size: 1.25em;
+    cursor: pointer;
+}

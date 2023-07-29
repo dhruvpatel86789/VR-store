@@ -1,0 +1,39 @@
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-image: url(../assets/img/AdobeStock_294910684.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color:#f0f0f0c4;
+    
+}
+.footer p{
+    color: aliceblue;
+}
+.footer img{
+    width: 75px;
+    text-align: center;
+}
+/***Responsive****/
+@media screen and (max-width: 768px) {
+    .footer h4 {
+        font-size: 1.2em;
+    }
+    .footer p {
+        font-size: 0.875em;
+    }
+}
+@media screen and (max-width: 576px) {
+    .footer h4 {
+        font-size: 1em;
+    }
+    .footer p {
+        font-size: 0.75em;
+    }
+}

@@ -1,0 +1,8 @@
+.input-group{
+    flex-basis: 50%;
+}
+.search{
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
