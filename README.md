@@ -40,7 +40,7 @@ To run the application:
     npm start
     ```
 
-Then, open your browser and navigate to `http://localhost:3000` to view the application.
+Then, open your browser and navigate to `http://localhost:5000` to view the application.
 
 ## Contributing
 
